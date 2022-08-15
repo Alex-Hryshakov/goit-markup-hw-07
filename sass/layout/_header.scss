@@ -51,17 +51,17 @@
   color: var(--primary-text-color);
   transition: color var(--transition-dur-tf);
 
-  .menu__link__current {
-  color: var(--accent-color);
-}
-
   &:hover,
   &:focus {
     color: var(--accent-color);
   }
 }
 
-.menu__link-current::after {
+.menu__link--current {
+  color: var(--accent-color);
+}
+
+.menu__link--current::after {
   position: absolute;
   bottom: 0;
   left: 50%;
