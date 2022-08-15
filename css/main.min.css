@@ -159,7 +159,7 @@ body {
 .menu__link:focus {
   color: var(--accent-color);
 }
-.menu-link-current::after {
+.menu__link--current::after {
   position: absolute;
   bottom: 0;
   left: 50%;

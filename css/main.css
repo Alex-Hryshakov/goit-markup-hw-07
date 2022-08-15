@@ -176,7 +176,7 @@ body {
   color: var(--primary-text-color);
   transition: color var(--transition-dur-tf);
 }
-.menu__link .menu__link__current {
+.menu__link .menu__link--current {
   color: var(--accent-color);
 }
 .menu__link:hover,
@@ -184,7 +184,7 @@ body {
   color: var(--accent-color);
 }
 
-.menu__link__current::after {
+.menu__link--current::after {
   position: absolute;
   bottom: 0;
   left: 50%;
