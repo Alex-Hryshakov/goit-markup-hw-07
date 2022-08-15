@@ -17,7 +17,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
-    <!-- <link rel="stylesheet" href="./css/styles.css" /> -->
+
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
@@ -29,21 +29,23 @@
             ><span class="accent">Web</span>Studio</a
           >
 
-          <ul class="menu list">
-            <li class="menu__item">
-              <a class="menu__link menu__link--current link" href="">Студия</a>
+          <ul class="navigation-menu list">
+            <li class="navigation-menu__item">
+              <a class="navigation-menu__link navigation-menu__link--current link" href=""
+                >Студия</a
+              >
             </li>
-            <li class="menu__item">
-              <a class="menu__link link" href="./portfolio.html">Портфолио</a>
+            <li class="navigation-menu__item">
+              <a class="navigation-menu__link link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="menu__item">
-              <a class="menu__link link" href="">Контакты</a>
+            <li class="navigation-menu__item">
+              <a class="navigation-menu__link link" href="">Контакты</a>
             </li>
           </ul>
         </nav>
-        <ul class="contact list">
+        <ul class="contact__list list">
           <li class="contact__item__header">
-            <a class="contact__text link" href="mailto:info@devstudio.com">
+            <a class="contact__link link" href="mailto:info@devstudio.com">
               <svg class="contact__link__icon" width="16" height="12">
                 <use href="./images/symbol-defs.svg#icon-mail"></use>
               </svg>
@@ -51,7 +53,7 @@
             >
           </li>
           <li class="contact__item__header">
-            <a class="contact__text contact__text__phone link" href="tel:+380961111111">
+            <a class="contact__link contact__text__phone link" href="tel:+380961111111">
               <svg class="contact__link__icon" width="10" height="16">
                 <use href="./images/symbol-defs.svg#icon-smartphone"></use>
               </svg>
@@ -78,7 +80,7 @@
 
           <ul class="plus-list list">
             <li class="plus-item">
-              <div class="plus-item-icon">
+              <div class="plus-item-wrapper">
                 <svg class="plus-icon" width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-antenna"></use>
                 </svg>
@@ -90,7 +92,7 @@
             </li>
 
             <li class="plus-item">
-              <div class="plus-item-icon">
+              <div class="plus-item-wrapper">
                 <svg class="plus-icon" width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-clock"></use>
                 </svg>
@@ -101,7 +103,7 @@
               </p>
             </li>
             <li class="plus-item">
-              <div class="plus-item-icon">
+              <div class="plus-item-wrapper">
                 <svg class="plus-icon" width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-diagram"></use>
                 </svg>
@@ -112,7 +114,7 @@
               </p>
             </li>
             <li class="plus-item">
-              <div class="plus-item-icon">
+              <div class="plus-item-wrapper">
                 <svg class="plus-icon" width="70" height="70">
                   <use href="./images/symbol-defs.svg#icon-astronaut"></use>
                 </svg>

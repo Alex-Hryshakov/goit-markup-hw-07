@@ -4,11 +4,14 @@
 @import "./utils/mixins";
 
 @import "./base/base";
-@import "./base/section";
 @import "./base/container";
 
-@import "./components/modal-btn";
+@import "./components/section";
 @import "./components/title";
+@import "./components/modal-btn";
+@import "./components/modal-btn-submit";
+@import "./components/btn-portfolio";
+
 
 @import "./layout/header";
 @import "./layout/hero.scss";
@@ -18,8 +21,6 @@
 @import "./layout/clients";
 @import "./layout/footer";
 @import "./layout/our-portfolio";
-@import "./components/btn-portfolio";
 @import "./layout/backdrop-modal";
 @import "./layout/modal-wind";
 @import "./layout/modal-form";
-@import "./components/modal-btn-submit";

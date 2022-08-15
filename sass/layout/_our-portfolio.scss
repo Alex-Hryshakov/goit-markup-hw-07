@@ -19,7 +19,8 @@
   @include font(16px, 500, 26px);
   text-align: center;
   color: var(--primary-text-color);
-  transition: color var(--transition-dur-tf);
+  transition: color var(--transition-dur-tf), box-shadow var(--transition-dur-tf),
+  background-color var(--transition-dur-tf);
 
   &:hover,
   &:focus {
